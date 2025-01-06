@@ -1,0 +1,53 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesan Sekarang</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesan Sekarang</title>
+  <style>
+    }
+  </style>
+</head>
+<body>
+  <!-- Judul -->
+  <h2>Pesan Sekarang</h2>
+
+  <!-- Tombol -->
+  <button id="pesanBtn">Pesan Sekarang!!</button>
+
+  <!-- Formulir -->
+  <div id="formPesan">
+    <form>
+      <label for="alamat">Alamat Penjemputan:</label>
+      <input type="text" id="alamat" name="alamat" placeholder="Masukkan alamat penjemputan" required>
+
+      <label for="tujuan">Alamat Tujuan:</label>
+      <input type="text" id="tujuan" name="tujuan" placeholder="Masukkan alamat tujuan" required>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
+
+  <script>
+    // Tangkap elemen tombol dan form
+    const pesanBtn = document.getElementById("pesanBtn");
+    const formPesan = document.getElementById("formPesan");
+
+    // Tambahkan event listener ke tombol
+    pesanBtn.addEventListener("click", function () {
+      // Toggle form (tampilkan/sembunyikan)
+      if (formPesan.style.display === "none" || formPesan.style.display === "") {
+        formPesan.style.display = "block"; // Tampilkan
+      } else {
+        formPesan.style.display = "none"; // Sembunyikan
+      }
+    });
+  </script>
+</body>
+</html>

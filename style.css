@@ -1,0 +1,300 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background-image: Logo mobil.jpg ;
+}
+
+header {
+    background: #734128;
+    color: beige;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid black;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('mobil.jpg') no-repeat center center/cover;
+    color: B;
+
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #FF5722;
+    border: none;
+    color: beige;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    background-image: url(Logo mobil.jpg);
+}
+
+footer {
+    background: #734128;
+    color: beige;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+img {
+  width: 300px;   /* Lebar gambar */
+  height: auto;   /* Tinggi gambar otomatis mengikuti rasio aslinya */
+}
+/* Styling Kontak */
+#kontak {
+  padding: 20px;
+  background-color: #beige;
+  border: 1px solid #ddd;
+  margin-top: 40px;
+}
+
+#kontak h2 {
+  color: #CFB997;
+}
+
+#kontak ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#kontak ul li {
+  margin-bottom: 10px;
+}
+
+/* Styling Form Kontak */
+#contactForm {
+  margin-top: 20px;
+}
+
+#contactForm input, #contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+}
+
+#contactForm button {
+  background-color: #CFB997;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#contactForm button:hover {
+  background-color: #beige;
+}
+/* Styling Testimoni */
+#testimoni {
+  padding: 20px;
+  background-color: #beige;
+  border: 1px solid #ddd;
+  margin-top: 40px;
+}
+
+#testimoni h2 {
+  color: #CFB997;
+}
+
+.testimoni-item {
+  margin-bottom: 20px;
+}
+
+.testimoni-item p {
+  font-style: italic;
+}
+
+.testimoni-item strong {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Styling Form Testimoni */
+#testimoniForm {
+  margin-top: 20px;
+}
+
+#testimoniForm input, #testimoniForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+}
+
+#testimoniForm button {
+  background-color: #CFB997;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#testimoniForm button:hover {
+  background-color: #CFB997;
+}
+/* Styling Layanan Section */
+#layanan {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f8f9fa;
+}
+
+#layanan h2 {
+  font-size: 2rem;
+  color: #CFB997;
+  margin-bottom: 10px;
+}
+
+#layanan p {
+  font-size: 1.2rem;
+  color: #CFB997;
+  margin-bottom: 30px;
+}
+
+/* Layanan Container */
+.layanan-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Item Layanan */
+.layanan-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.layanan-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.layanan-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.layanan-item h3 {
+  font-size: 1.5rem;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.layanan-item p {
+  font-size: 1rem;
+  color: #666;
+}
+body {
+  font-family: initial;, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #CFB997;
+}
+
+#formPesan {
+  display: none; /* Awalnya disembunyikan */
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 5px;
+  width: 300px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#formPesan button {
+  background-color: #CFB997;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#formPesan button:hover {
+  background-color: #CFB997;
+}
+
